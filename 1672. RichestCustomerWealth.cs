@@ -1,6 +1,6 @@
 ﻿// https://leetcode.com/problems/richest-customer-wealth/
 
-namespace LeetCodeSolution;
+namespace LeetCode_Solutions;
 
 public static class RichestCustomerWealth
 {
