@@ -7,14 +7,10 @@ public static class RichestCustomerWealth
 	private static int MaxValue(int[][] accounts)
 	{
 		var res = 0;
-		for (var i = 0; i < accounts.Length; i++)
+		foreach (var t in accounts)
 		{
 			var temporary = 0;
-			for (var j = 0; j < accounts[i].Length; j++)
-			{
-				temporary += accounts[i][j];
-			}
-
+			foreach (var t1 in t) temporary += t1;
 			res = Math.Max(res, temporary);
 		}
 
